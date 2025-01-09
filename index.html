@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <section id="MySideBar">
+   <!--      <div class="side-menue d-flex flex-column  p-5 align-items-center col-5 h-100 position-fixed bg-white gap-4 ">
+            <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="#">Home</a>
+            <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/about_us/index.html">About us</a>
+            <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/curriclum/index.html">Curriculum</a>
+            <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/admissions/index.html">Admissions</a>
+            <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/News & Events/index.html">News & Events</a>
+            <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/Staff Directory/index.html">Staff Directory</a>
+            <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/contact us/index.html">Contact us</a>
+            <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/FAQ/index.html">FAQ</a>
+        </div>
+        <div class="overlayFullss d-flex position-fixed col-12 h-100"></div> -->
+    </section>
+    <section class="d-flex flex-wrap">
+        <div class="container d-fixed ">
+            <header class="d-flex flex-row gap-3 justify-content-between gap-3 p-4">
+                <div class="header-logo animate__animated animate__fadeInLeft text-center align-items-center d-flex flex-row gap-2">
+                    <div id="logo-container">
+
+                        <img src="assets/Logo.png" class="col-12 h-100" alt="">
+
+                    </div>
+                    <h1>Al Mostakbal Modern Language School</h1>
+                </div>
+                <div class="justify-content-center align-items-center d-none"  id="Menue">
+                    <i class="fa-solid fa-bars" onclick='ToggleNavbar()'></i>
+                </div>
+                <div id="res" class="d-flex flex-row gap-5 align-items-center">
+                    <div class="d-flex flex-row justify-content-center align-items-center gap-2">
+                        <a href="#" class="btn btn-primary">Login</a>
+            </div>
+                <div class="social d-flex flex-row gap-4 fs-4">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+
+            </header>
+            <nav id="Nav" class="d-flex justify-content-center p-3 align-items-center text-center gap-3">
+                <a class="text-white animate__animated animate__fadeIn" href="#">Home</a>
+                <a class="text-white animate__animated animate__fadeIn" href="./pages/about_us/index.html">About us</a>
+                <a class="text-white animate__animated animate__fadeIn" href="./pages/curriclum/index.html">Curriculum</a>
+                <a class="text-white animate__animated animate__fadeIn" href="./pages/admissions/index.html">Admissions</a>
+                <a class="text-white animate__animated animate__fadeIn" href="./pages/News & Events/index.html">News & Events</a>
+                <a class="text-white animate__animated animate__fadeIn" href="./pages/Staff Directory/index.html">Staff Directory</a>
+                <a class="text-white animate__animated animate__fadeIn" href="./pages/contact us/index.html">Contact us</a>
+                <a class="text-white animate__animated animate__fadeIn" href="./pages/FAQ/index.html">FAQ</a>
+            </nav>
+        </div>
+    </section>
+
+    <section class="mt-2 d-flex flex-column">
+        <div class="container d-flex flex-row gap-2">
+            <div class="video-container col-12 position-relative">
+                <video autoplay muted src="./assets/Branch 5.mp4" class="col-12 h-100"></video>
+                <div class="cards-container d-flex flex-wrap justify-content-center align-items-center position-absolute col-12">
+                    <div class="p-2 col-12 col-lg-5 col-md-5 Opacity-content">
+                    <div class="card p-4 text-center animate__animated animate__fadeInDown animate__animated animate__fadeInDown  animate__delay-1s">
+                        <i class="fa-solid fa-comment fs-1 animate__animated animate__fadeIn animate__delay-2s"></i>
+                        <h3 class="animate__animated animate__fadeIn animate__delay-2s">Message from the Principal</h3>
+                        <p class="animate__animated animate__fadeIn animate__delay-2s">Welcome to our school!</p>
+                    </div>
+                    </div>
+                    <div class="p-2 col-12 col-lg-5 col-md-5 Opacity-content">
+                    <div class="card p-4 text-center animate__animated animate__fadeInDown animate__animated animate__fadeInDown  animate__delay-1s">
+                        <i class="fa-solid fa-list-check fs-1 animate__animated animate__fadeIn animate__delay-2s"></i>
+                        <h3 class="animate__animated animate__fadeIn animate__delay-2s">Programs</h3>
+                        <p class="animate__animated animate__fadeIn animate__delay-2s">Explore our academic programs</p>
+                    </div>
+                    </div>
+                    <div class="p-2 col-12 col-lg-5 col-md-5 Opacity-content">
+                    <div class="card p-4 text-center animate__animated animate__fadeInDown animate__animated animate__fadeInDown  animate__delay-1s">
+                        <i class="fa-solid fa-ticket-simple fs-1 animate__animated animate__fadeIn animate__delay-2s"></i>
+                        <h3 class="animate__animated animate__fadeIn animate__delay-2s">Admissions</h3>
+                        <p class="animate__animated animate__fadeIn animate__delay-2s">Join our community</p>
+                    </div>
+                    </div>
+                    <div class="p-2 col-12 col-lg-5 col-md-5 Opacity-content">
+                    <div class="card p-4 text-center animate__animated animate__fadeInDown animate__animated animate__fadeInDown  animate__delay-1s ">
+                        <i class="fa-regular fa-message fs-1 animate__animated animate__fadeIn animate__delay-2s"></i>
+                        <h3 class="animate__animated animate__fadeIn animate__delay-2s">Contact Us</h3>
+                        <p class="animate__animated animate__fadeIn animate__delay-2s">Get in touch</p>
+                    </div>
+                    </div>
+                </div>
+                <div id="video-content" class="content-overlay animate__animated animate__fadeInLeft position-absolute">
+                    <a href="" class=""><b>Welcome to Our School</b></a>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="col-12 mt-2 d-flex flex-column bg-secondary bg-gradient">
+        <div class="container d-flex flex-wrap justify-content-center align-items-center">
+           <div class="d-flex flex-row flex-wrap ">
+            <div class="d-flex justify-content-center align-items-center col-12 col-md-4 col-lg-4 flex-wrap p-2">
+                <div data-aos="fade-down" class="col-12 girl-container">
+                <img src="./assets/girl.jpg" class="col-12 h-100 " alt="">
+            </div>
+            </div>
+            <div data-aos="flip-up" class="d-flex align-items-center flex-column col-12 col-md-8 col-lg-8 flex-wrap p-2">
+            <div class="solgan col-12 bg-primary bg-gradient text-center text-white p-2">
+                <h1>Education, Our Path to the Future</h1>
+            </div>
+            <div class="paragraph d-flex flex-wrap col-12 bg-sologan-content text-center justify-content-center p-4"><h4>Welcome to <span>Al Mostakbal Modern Language School</span>, where education is the foundation of excellence and creativity. We are committed to providing a stimulating and safe learning environment that helps our students develop both academically and personally to achieve lasting success. We believe that every student has the potential to reach their full capabilities through quality education and proper guidance. Join us on our journey to building the future generation.</h4> </div>
+            </div>
+           </div>
+        </div>
+    </section>
+    <section class="col-12 mt-2" >
+        <div class="container  d-flex flex-column">
+        <div class="section-header mb-2" data-aos="fade-right">
+            <h4>Student News</h4>
+            <div class="lr-line col-12 bg-secondary">
+                <div class="light-line col-3 bg-primary"></div>
+            </div>
+        </div>
+        <div class="swiper-header">
+            <h1>Student News</h1>
+        </div>
+        <div class="col-12">
+<div class="col-12 swiper-container" data-aos="fade-right">
+
+<div class="swiper">
+
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide position-relative">
+      <div class="position-absolute d-flex h-100 col-12 justify-content-center  align-items-center">
+      <div class="slide-box p-3 text-center d-flex justify-content-center align-items-center col-6 text-white">
+      <h4>Student Omar obtained the first place in the first grade at the national level.</h4>
+      </div>
+      </div>
+    <img class="col-12 h-100" src="./assets/news1.jpg" alt="">
+    </div>
+    <div class="swiper-slide position-relative">
+      <div class="position-absolute d-flex h-100 col-12 justify-content-center  align-items-center">
+      <div class="slide-box p-3 text-center d-flex justify-content-center align-items-center col-6 text-white">
+      <h4>The school administration announces the following:</h4>
+      </div>
+      </div>
+    <img class="col-12 h-100" src="./assets/news2.jpg" alt="">
+    </div>
+    <div class="swiper-slide position-relative">
+      <div class="position-absolute d-flex h-100 col-12 justify-content-center  align-items-center">
+      <div class="slide-box p-3 text-center d-flex justify-content-center align-items-center col-6 text-white">
+      <h4>The school administration announces a trip to the Pharaonic Village to explore the antiquities and learn about some of Egypt's monuments</h4>
+      </div>
+      </div>
+    <img class="col-12 h-100" src="./assets/news3.jpg" alt="">
+    </div>
+
+  </div>
+
+  <div class="swiper-pagination"></div>
+
+
+
+</div>
+<div class="col-12 d-flex justify-content-center mt-3 mb-3">
+    <a href="./pages/News & Events/index.html"><button class="btn btn-info" > Show more</button></a>    
+</div>
+</div>
+</div>
+    </div>
+
+    </section>
+    
+
+    <section class="col-12 mt-5"  >
+        <div class="container  d-flex flex-column">
+        <div class="section-header mb-2" data-aos="fade-right">
+            <h4>School News</h4>
+            <div class="lr-line col-12 bg-secondary">
+                <div class="light-line col-3 bg-primary"></div>
+            </div>
+        </div>
+        <div class="swiper-header">
+            <h1>School News</h1>
+        </div>
+        <div class="col-12">
+<div class="col-12 swiper-container" data-aos="fade-left">
+
+<div class="swiper">
+
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide position-relative">
+      <div class="position-absolute d-flex h-100 col-12 justify-content-center  align-items-center">
+      <div class="slide-box p-3 text-center d-flex justify-content-center align-items-center col-6 text-white">
+      <h4>Student Omar obtained the first place in the first grade at the national level.</h4>
+      </div>
+      </div>
+    <img class="col-12 h-100" src="./assets/news1.jpg" alt="">
+    </div>
+    <div class="swiper-slide position-relative">
+      <div class="position-absolute d-flex h-100 col-12 justify-content-center  align-items-center">
+      <div class="slide-box p-3 text-center d-flex justify-content-center align-items-center col-6 text-white">
+      <h4>The school administration announces the following:</h4>
+      </div>
+      </div>
+    <img class="col-12 h-100" src="./assets/news2.jpg" alt="">
+    </div>
+    <div class="swiper-slide position-relative">
+      <div class="position-absolute d-flex h-100 col-12 justify-content-center  align-items-center">
+      <div class="slide-box p-3 text-center d-flex justify-content-center align-items-center col-6 text-white">
+      <h4>The school administration announces a trip to the Pharaonic Village to explore the antiquities and learn about some of Egypt's monuments</h4>
+      </div>
+      </div>
+    <img class="col-12 h-100" src="./assets/news3.jpg" alt="">
+    </div>
+
+  </div>
+
+  <div class="swiper-pagination"></div>
+
+
+
+</div>
+<div class="col-12 d-flex justify-content-center mt-3 mb-3">
+    <a href="./pages/News & Events/index.html"><button class="btn btn-info" > Show more</button></a>
+    
+</div>
+</div>
+</div>
+    </div>
+
+    </section>
+
+    <section class="col-12 mt-5">
+        <div class="container">
+            <div class="col-12">
+                <div class="mytext">
+                    <span id="type-text">dear faculyu members</span>
+                  </div>
+            </div>
+            <div class="col-12 d-flex flex-row flex-wrap row g-2">
+                <div class="col-12 col-md-4 col-lg-4 " data-aos="fade-right">
+                    <div class="card teacher-card col-12">
+                        <div class="card-img-holder col-12 ">
+                         <img src="assets/teacher1.png" class="card-img-top col-12 h-100" alt="...">
+                         </div>
+                         <div class="teacher-container text-center">
+                            <h1 class="fs-5">Mr:ahmed mohamed metwly</h1>
+                            <h5 class="fs-5">math Teacher</h5>
+                         </div>
+                    </div>
+                    
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 ">
+                    <div class="card teacher-card col-12">
+                        <div class="card-img-holder col-12 ">
+                         <img src="assets/teacher2.jpg" class="card-img-top col-12 h-100" alt="...">
+                         </div>
+                         <div class="teacher-container text-center">
+                            <h1 class="fs-5">Mr:ahmed mohamed metwly</h1>
+                            <h5 class="fs-5">math Teacher</h5>
+                         </div>
+                    </div>
+                    
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 "  data-aos="fade-left">
+                    <div class="card teacher-card col-12">
+                        <div class="card-img-holder col-12 ">
+                         <img src="assets/teacher3.jpg" class="card-img-top col-12 h-100" alt="...">
+                         </div>
+                         <div class="teacher-container text-center">
+                            <h1 class="fs-5">Mr:ahmed mohamed metwly</h1>
+                            <h5 class="fs-5">math Teacher</h5>
+                         </div>
+                    </div>
+                    
+                </div>  
+                <div class="col-12 col-md-4 col-lg-4 " data-aos="fade-right"    >
+                    <div class="card teacher-card col-12">
+                        <div class="card-img-holder col-12 ">
+                         <img src="assets/teacher4.jpg" class="card-img-top col-12 h-100" alt="...">
+                         </div>
+                         <div class="teacher-container text-center">
+                            <h1 class="fs-5">Mr:ahmed mohamed metwly</h1>
+                            <h5 class="fs-5">math Teacher</h5>
+                         </div>
+                    </div>
+                    
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="card teacher-card col-12">
+                        <div class="card-img-holder col-12 ">
+                         <img src="assets/teacher5.png" class="card-img-top col-12 h-100" alt="...">
+                         </div>
+                         <div class="teacher-container text-center">
+                            <h1 class="fs-5">Mr:ahmed mohamed metwly</h1>
+                            <h5 class="fs-5">math Teacher</h5>
+                         </div>
+                    </div>
+                    
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 "  data-aos="fade-left">
+                    <div class="card teacher-card col-12">
+                        <div class="card-img-holder col-12 ">
+                         <img src="assets/teacher6.png" class="card-img-top col-12 h-100" alt="...">
+                         </div>
+                         <div class="teacher-container text-center">
+                            <h1 class="fs-5">Mr:ahmed mohamed metwly</h1>
+                            <h5 class="fs-5">math Teacher</h5>
+                         </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="d-flex justify-content-center col-12">
+            <div class="btn btn-info mt-3"><b><a class="text-decoration-none text-white "  href="./pages/Staff Directory/">Show More</a></b></div>
+        </div>
+        </div>
+    </section>
+
+
+    <section data-aos="fade-up" class="mt-3">
+      <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h2>About the School</h2>
+                <p>School logo and welcome message. Learn about the latest school news and upcoming events.</p>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Curriculum</a></li>
+                    <li><a href="#">Admissions</a></li>
+                    <li><a href="#">Events & News</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contact Us</h2>
+                <p>Phone: 123-456-7890</p>
+                <p>Email: school@example.com</p>
+                <p>Address: 1234 School Street, City</p>
+                <p>Follow us on social media:</p>
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Instagram</a>
+                </div>
+            </div>
+            <div class="footer-section resources">
+                <h2>Educational Resources</h2>
+                <ul>
+                    <li><a href="#">Textbook Links</a></li>
+                    <li><a href="#">Worksheets and Assignments</a></li>
+                    <li><a href="#">Educational Platforms</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 School. All rights reserved.
+        </div>
+    </footer>
+
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>

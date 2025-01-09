@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <section id="MySideBar">
+    <!--      <div class="side-menue d-flex flex-column  p-5 align-items-center col-5 h-100 position-fixed bg-white gap-4 ">
+             <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="#">Home</a>
+             <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/about_us/index.html">About us</a>
+             <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/curriclum/index.html">Curriculum</a>
+             <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/admissions/index.html">Admissions</a>
+             <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/News & Events/index.html">News & Events</a>
+             <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/Staff Directory/index.html">Staff Directory</a>
+             <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/contact us/index.html">Contact us</a>
+             <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/FAQ/index.html">FAQ</a>
+         </div>
+         <div class="overlayFullss d-flex position-fixed col-12 h-100"></div> -->
+     </section>
+  <section class="d-flex flex-wrap">
+    <div class="container d-fixed ">
+        <header class="d-flex flex-row gap-3 justify-content-between gap-3 p-4">
+            <div class="header-logo animate__animated animate__fadeInLeft text-center align-items-center d-flex flex-row gap-2">
+                <div id="logo-container">
+
+                    <img src="../../assets/Logo.png" class="col-12 h-100" alt="">
+
+                </div>
+                <h1>Al Mostakbal Modern Language School</h1>
+            </div>
+            <div class="justify-content-center align-items-center d-none " id="Menue">
+                <i class="fa-solid fa-bars" onclick='ToggleNavbar()'></i>
+            </div>
+            <div id="res" class="d-flex flex-row gap-5 align-items-center">
+                <div class="d-flex flex-row justify-content-center align-items-center gap-2">
+                  <a href="#" class="btn btn-primary">Login</a>
+        </div>
+            <div class="social d-flex flex-row gap-4 fs-4">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+
+        </header>
+        <nav id="Nav" class="d-flex justify-content-center p-3 align-items-center text-center gap-3">
+            <a class="text-white animate__animated animate__fadeIn" href="../../index.html">Home</a>
+            <a class="text-white animate__animated animate__fadeIn" href="../about_us/index.html">About us</a>
+            <a class="text-white animate__animated animate__fadeIn" href="../curriclum/index.html">Curriculum</a>
+            <a class="text-white animate__animated animate__fadeIn" href="../admissions/index.html">Admissions</a>
+            <a class="text-white animate__animated animate__fadeIn" href="../News & Events/index.html">News & Events</a>
+            <a class="text-white animate__animated animate__fadeIn" href="#">Staff Directory</a>
+            <a class="text-white animate__animated animate__fadeIn" href="../contact us/index.html">Contact us</a>
+            <a class="text-white animate__animated animate__fadeIn" href="../FAQ/index.html">FAQ</a>
+        </nav>
+    </div>
+</section>
+    <section>
+        <div class="container">
+            <div class="main">
+                <ul class="cards">
+                  <li class="cards_item" data-aos="fade-up">
+                    <div class="card">
+                      <div class="card_image"><img src="../../assets/teacher1.png" alt="mixed vegetable salad in a mason jar. "></div>
+                      <div class="card_content">
+                        <h2 class="card_title">Mis: mahytab El Sayed Ibrahim</h2>
+                        <div class="card_text">
+                          <p class="mb-2"> <b>This space is an example of Test</b></p>
+                          <p>Teacher Word </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+              
+                  <li class="cards_item" data-aos="fade-up">
+                    <div class="card">
+                      <div class="card_image"><img src="../../assets/teacher3.jpg" alt="a Reuben sandwich on wax paper. "></div>
+                      <div class="card_content">
+                        <h2 class="card_title">Mis Reham Ahmed Mohamed</h2>
+                        <div class="card_text">
+                          <p class="mb-2"><b> This Paragraph is an Example of Header</b>
+                          </p>
+                         <p>This paragraph is an Example of content of Teacher word</p>
+                           
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="cards_item" data-aos="fade-up">
+                    <div class="card">
+                      <div class="card_image"><img src="../../assets/teacher2.jpg" alt="A side view of a plate of figs and berries. "></div>
+                      <div class="card_content">
+                        <h2 class="card_title">Mr Amr Samy Aly</h2>
+                        <div class="card_text">
+                         
+                          <p class="mb-2"><b> This is An Example of Teacher Word Header</b></p>
+                          <p>This is An Example of teacher word paragraph </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="cards_item" data-aos="fade-up">
+                    <div class="card">
+                      <div class="card_image"><img src="../../assets/teacher1.png" alt="mixed vegetable salad in a mason jar. "></div>
+                      <div class="card_content">
+                        <h2 class="card_title">Mis: mahytab El Sayed Ibrahim</h2>
+                        <div class="card_text">
+                          <p class="mb-2"> <b>This space is an example of Test</b></p>
+                          <p>Teacher Word </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+              
+                  <li class="cards_item" data-aos="fade-up">
+                    <div class="card">
+                      <div class="card_image"><img src="../../assets/teacher3.jpg" alt="a Reuben sandwich on wax paper. "></div>
+                      <div class="card_content">
+                        <h2 class="card_title">Mis Reham Ahmed Mohamed</h2>
+                        <div class="card_text">
+                          <p class="mb-2"><b> This Paragraph is an Example of Header</b>
+                          </p>
+                         <p>This paragraph is an Example of content of Teacher word</p>
+                           
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="cards_item" data-aos="fade-up">
+                    <div class="card">
+                      <div class="card_image"><img src="../../assets/teacher2.jpg" alt="A side view of a plate of figs and berries. "></div>
+                      <div class="card_content">
+                        <h2 class="card_title">Mr Amr Samy Aly</h2>
+                        <div class="card_text">
+                         
+                          <p class="mb-2"><b> This is An Example of Teacher Word Header</b></p>
+                          <p>This is An Example of teacher word paragraph </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="cards_item" data-aos="fade-up">
+                    <div class="card">
+                      <div class="card_image"><img src="../../assets/teacher1.png" alt="mixed vegetable salad in a mason jar. "></div>
+                      <div class="card_content">
+                        <h2 class="card_title">Mis: mahytab El Sayed Ibrahim</h2>
+                        <div class="card_text">
+                          <p class="mb-2"> <b>This space is an example of Test</b></p>
+                          <p>Teacher Word </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+              
+                  <li class="cards_item" data-aos="fade-up">
+                    <div class="card">
+                      <div class="card_image"><img src="../../assets/teacher3.jpg" alt="a Reuben sandwich on wax paper. "></div>
+                      <div class="card_content">
+                        <h2 class="card_title">Mis Reham Ahmed Mohamed</h2>
+                        <div class="card_text">
+                          <p class="mb-2"><b> This Paragraph is an Example of Header</b>
+                          </p>
+                         <p>This paragraph is an Example of content of Teacher word</p>
+                           
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="cards_item" data-aos="fade-up">
+                    <div class="card">
+                      <div class="card_image"><img src="../../assets/teacher2.jpg" alt="A side view of a plate of figs and berries. "></div>
+                      <div class="card_content">
+                        <h2 class="card_title">Mr Amr Samy Aly</h2>
+                        <div class="card_text">
+                         
+                          <p class="mb-2"><b> This is An Example of Teacher Word Header</b></p>
+                          <p>This is An Example of teacher word paragraph </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 d-flex justify-content-center">
+                <div aria-label="Page navigation example">
+                  <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                  </ul>
+                </div>
+              </div>
+        </div>
+    </section>
+    
+    <section data-aos="fade-up" class="mt-5 col-12">
+        <footer class="footer col-12">
+          <div class="footer-container">
+            <div class="footer-section about">
+              <h2>About the School</h2>
+              <p>
+                School logo and welcome message. Learn about the latest school
+                news and upcoming events.
+              </p>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Curriculum</a></li>
+                <li><a href="#">Admissions</a></li>
+                <li><a href="#">Events & News</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="footer-section contact">
+              <h2>Contact Us</h2>
+              <p>Phone: 123-456-7890</p>
+              <p>Email: school@example.com</p>
+              <p>Address: 1234 School Street, City</p>
+              <p>Follow us on social media:</p>
+              <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+              </div>
+            </div>
+            <div class="footer-section resources">
+              <h2>Educational Resources</h2>
+              <ul>
+                <li><a href="#">Textbook Links</a></li>
+                <li><a href="#">Worksheets and Assignments</a></li>
+                <li><a href="#">Educational Platforms</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            &copy; 2024 School. All rights reserved.
+          </div>
+        </footer>
+      </section>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="./app.js"></script>
+</body>
+</html>

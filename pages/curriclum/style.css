@@ -1,0 +1,359 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+  text-decoration: none;
+  margin: 0 !important;
+}
+
+.lr-line , .light-line
+{
+  height: 2px;
+}
+.arrow-left , .arrow-right{
+  border: 1px solid black;
+  border-radius: 50%; 
+  width: 35px;
+  height: 35px;
+
+}
+nav {
+  background: rgba(1, 53, 30, .8);
+}
+
+.p-header {
+  font-weight: 250;
+  font-size: smaller;
+}
+
+.video-container {
+  height: 75vh;
+  position: relative;
+}
+
+#video-content {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: white;
+  z-index: 2;
+  max-width: 300px;
+  font-size: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content-overlay a, .content-overlay p {
+  color: white;
+  margin: 0;
+}
+
+.video-container video {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  height: 100%;
+  
+  z-index: 1;
+}
+
+.cards-container {
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 3;
+}
+
+.card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+  background-color: rgba(255, 255, 255, 0.9); 
+}
+
+.mytext span {
+  display: inline-block;
+  opacity: 0;
+  white-space: pre;
+  overflow: hidden;
+  border-right: 2px solid black;
+  animation: typing 2s steps(20), blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+    opacity: 1;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
+
+@media (min-width: 1200px) {
+  .full-page-container {
+      max-width: 1140px;
+  }
+}
+#logo-container{
+  height: 45px !important;
+  width: 45px !important;
+}
+#logo-container img {
+  object-fit: cover;
+}
+.header-logo h1 {
+  text-align: center;
+  font-size: 20px !important;
+}
+.bg-sologan-content {
+  background-color: rgb(251 251 251 / 75%);
+}
+.bg-sologan-content h4 span{
+  color: #1e88e5;
+}
+.girl-container
+{
+  height: 336px;
+}
+#forimgbg{
+  background-image: url('../../assets/365221878_778927117571261_10563328488011507_n.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80vh;
+  min-height: 80vh;
+}
+nav a:hover 
+{
+  transition: 500ms;
+  border-radius: 15px;
+  background-color: white;
+ color: black !important;
+  padding: 8px;
+}
+.footer {
+  background-color: #201c09; /* لون الخلفية */
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin: 20px;
+}
+
+.footer-section h2 {
+  margin-bottom: 15px;
+}
+
+.footer-section p,
+.footer-section ul {
+  line-height: 1.6;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 10px 0;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-links a {
+  color: white;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #fff;
+  padding-top: 10px;
+}
+.swiper-container{
+  height: 60vh;
+
+}
+.swiper {
+  height: 100% !important;
+}
+.overlay{
+  background-color: #201c0990;
+  height: 100% !important;
+}
+.swiper-slide
+{
+  background-color: rgba(191, 200, 207, 0.452);
+}
+.slide-box
+{
+  background-color: rgba(0, 0, 0, 0.5);
+  color:white;
+right: 25% !important;
+}
+.swiper-slide img
+{
+object-fit: contain;
+}
+.teacher-card
+{
+  height: 400px;
+}
+.card-img-holder
+{
+  
+  height: 70%;
+}
+.card-img-holder img
+{
+  object-fit: contain;
+}
+.line{
+  height: 3px;
+  background-color: #2f290e;
+  position:relative
+}
+.content-header-bg{
+  height: 35px;
+  background-color: #1e88e5;
+  position: absolute;
+  bottom: 0;
+  top: -15px;
+  width: 150px;
+  left: 15px;
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+}
+.ol-right{
+  direction: rtl; /* يجعل الترقيم يظهر على اليمين */
+  list-style-position: inside; /* يضع الترقيم داخل النص */
+}
+#kgButton,
+#primaryButton,
+#prepButton {
+  margin-bottom: 8px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6a11cb; /* لون خلفية التدرج */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#kgButton:hover,
+#primaryButton:hover,
+#prepButton:hover {
+  background-color: #2575fc; /* لون خلفية عند التحويم */
+}
+
+#kgButton:focus,
+#primaryButton:focus,
+#prepButton:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.custom-opacity {
+  background-color: rgba(40, 167, 69, 0.25); /* bg-success مع شفافية 25% */
+}
+.semi-transparent-danger {
+  background-color: rgba(220, 53, 69, 0.25); /* bg-danger مع شفافية 25% */
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .full-page-container {
+      max-width: 960px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .full-page-container {
+      max-width: 720px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .full-page-container {
+      max-width: 100%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .full-page-container {
+      max-width: 100%;
+  }
+  #res{
+    display: none !important;
+  }
+  #Menue{
+    display: flex !important;
+  }
+  #Nav {
+    display: none !important;
+  }
+  .Opacity-content
+  {
+    display: none !important;
+  }
+}
+
+.side-menue{
+  z-index: 123123123123123;
+}
+.overlayFullss{
+  background-color: rgba(0, 0, 0, 0.247);
+  z-index: 10000000;
+}

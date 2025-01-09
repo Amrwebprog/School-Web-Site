@@ -1,0 +1,3329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+
+  <section id="MySideBar">
+    <!--      <div class="side-menue d-flex flex-column  p-5 align-items-center col-5 h-100 position-fixed bg-white gap-4 ">
+             <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="#">Home</a>
+             <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/about_us/index.html">About us</a>
+             <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/curriclum/index.html">Curriculum</a>
+             <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/admissions/index.html">Admissions</a>
+             <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/News & Events/index.html">News & Events</a>
+             <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/Staff Directory/index.html">Staff Directory</a>
+             <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/contact us/index.html">Contact us</a>
+             <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/FAQ/index.html">FAQ</a>
+         </div>
+         <div class="overlayFullss d-flex position-fixed col-12 h-100"></div> -->
+     </section>
+
+  <section class="d-flex flex-wrap">
+    <div class="container d-fixed ">
+        <header class="d-flex flex-row gap-3 justify-content-between gap-3 p-4">
+            <div class="header-logo animate__animated animate__fadeInLeft text-center align-items-center d-flex flex-row gap-2">
+                <div id="logo-container">
+
+                    <img src="../../assets/Logo.png" class="col-12 h-100" alt="">
+
+                </div>
+                <h1>Al Mostakbal Modern Language School</h1>
+            </div>
+            <div class="justify-content-center align-items-center d-none " id="Menue">
+                <i class="fa-solid fa-bars" onclick='ToggleNavbar()'></i>
+            </div>
+            <div id="res" class="d-flex flex-row gap-5 align-items-center">
+                <div class="d-flex flex-row justify-content-center align-items-center gap-2">
+                  <a href="#" class="btn btn-primary">Login</a>
+        </div>
+            <div class="social d-flex flex-row gap-4 fs-4">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+
+        </header>
+        <nav id="Nav" class="d-flex justify-content-center p-3 align-items-center text-center gap-3">
+            <a class="text-white animate__animated animate__fadeIn" href="../../index.html">Home</a>
+            <a class="text-white animate__animated animate__fadeIn" href="../about_us/index.html">About us</a>
+            <a class="text-white animate__animated animate__fadeIn" href="../curriclum/index.html">Curriculum</a>
+            <a class="text-white animate__animated animate__fadeIn" href="../admissions/index.html">Admissions</a>
+            <a class="text-white animate__animated animate__fadeIn" href="../News & Events/index.html">News & Events</a>
+            <a class="text-white animate__animated animate__fadeIn" href="../Staff Directory/index.html">Staff Directory</a>
+            <a class="text-white animate__animated animate__fadeIn" href="../contact us/index.html">Contact us</a>
+            <a class="text-white animate__animated animate__fadeIn" href="../FAQ/index.html">FAQ</a>
+        </nav>
+    </div>
+</section>
+
+
+
+    <section  class="mt-5">
+   
+        <div id='forimgbg' class="container postion-relativeb p-0 text-white">
+          <div class="overlay postion-absolute col-12">
+          <div class="col-12 d-flex justify-content-center align-items-center flex-wrap row g-2 h-100">
+            <a href="#EnglishDepartment">
+<div class="col-12 col-lg-6 col-md-6">
+  <div class="card d-flex justify-content-center col-12 text-center">
+    <h1 class="text-dark">English Department</h1>
+  </div>
+</div>
+</a>
+<a href="#ArabicDepartment">
+<div class="col-12 col-lg-6 col-md-6">
+  <div class="card d-flex justify-content-center col-12 text-center">
+    <h1 class="text-dark">Arabic department</h1>
+  </div>
+</div>
+</a>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-5" >
+      <div class="container d-flex flex-column ">
+        <div class="line postion-relative">
+          <div class="content-header-bg  postion-absolute text-center justify-content-center  text-white  align-items-center">
+            <h4 data-aos="zoom-in"  data-aos-duration="1000">Services</h4>
+          </div>
+        </div>
+        <div class="d-flex flex-row p-2 row g-2 flex-wrap col-12">
+          <div class="col-5 mt-4 d-flex flex-column flex-wrap" data-aos="zoom-in"  data-aos-duration="1000">
+            <ol>
+              <li>applying steam program in fully equipped laboratories .</li>
+              <li>implementing cambridge assessment english . </li>
+              <li>montessori classes .</li>
+              <li>Remedial classes</li>
+              <li>Psychological support</li>
+              <li>parents guiding </li>
+              <li>medical care </li>
+              <li>applying the latest richest curriculums</li>
+              <li>high qualified teachers</li>
+              
+              
+            </ol>
+          </div>
+          <div class="col-5 mt-4 text-end d-flex flex-column ol-right" data-aos="zoom-in"  data-aos-duration="1000">
+            <ol>
+              <li>تطبيق برنامج steam في معامل مجهزة بالكامل </li>
+              <li>تقييم كامبريدج للغة الانجليزية </li>
+              <li>فصول المنتسوري , فصول تعزيزية و تقوية </li>
+              <li>الدعم النفسي </li>
+              <li>ارشاد اسري و تربوي </li>
+              <li>الرعاية الطبية </li>
+              <li>تطبيق احدث المناهج الدراسية  , معلمون أكفاء</li>
+            </ol>
+          </div>
+        </div>
+        <div class="col-12 d-flex flex-row justify-content-center align-items-center flex-wrap p-5">
+          <div class="col-12 d-flex flex-row flex-wrap row g-5">
+            <div class="col-12 col-lg-6 col-md-6 gray-bg" data-aos="zoom-in"  data-aos-duration="1000">
+              <img src="../../assets/download.svg" class="col-9 h-100" alt="">
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 gray-bg" data-aos="zoom-in"  data-aos-duration="1300">
+              <img src="../../assets/cambridge_university2.svg" class="col-9 h-100" alt="">
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 gray-bg" data-aos="zoom-in"  data-aos-duration="1600">
+              <svg class="col-9 h-100"  viewBox="0 0 132 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.5162 23.7335V25.1445C19.5162 25.8291 19.135 26.2131 18.4469 26.2131H1.06934C0.384248 26.2131 0 25.8321 0 25.1445V23.7335C0 23.0488 0.38127 22.6648 1.06934 22.6648H18.4499C19.135 22.6648 19.5192 23.0459 19.5192 23.7335H19.5162ZM18.3307 13.0589L13.8002 10.4453C13.6512 10.359 13.6512 10.1476 13.8002 10.0613L18.3307 7.44772C18.8431 7.15302 19.0158 6.49814 18.7209 5.98912L18.015 4.76865C17.7201 4.25665 17.0678 4.084 16.5554 4.3787L12.0249 6.99228C11.876 7.07861 11.6913 6.97144 11.6913 6.80177V1.56865C11.6913 0.979256 11.2117 0.5 10.6219 0.5H9.21004C8.62027 0.5 8.1407 0.979256 8.1407 1.56865V6.79879C8.1407 6.96847 7.95602 7.07563 7.80709 6.9893L3.27654 4.37572C2.7642 4.08102 2.11188 4.25665 1.81699 4.76568L1.11104 5.98614C0.816155 6.49814 0.991897 7.15005 1.50125 7.44475L6.0318 10.0583C6.18074 10.1447 6.18074 10.356 6.0318 10.4423L1.50125 13.0559C0.988918 13.3506 0.816155 14.0025 1.11104 14.5145L1.81699 15.735C2.11188 16.247 2.7642 16.4196 3.27654 16.1249L7.80709 13.5114C7.95602 13.425 8.1407 13.5322 8.1407 13.7019V18.932C8.1407 19.5214 8.62027 20.0007 9.21004 20.0007H10.6219C11.2117 20.0007 11.6913 19.5214 11.6913 18.932V13.7019C11.6913 13.5322 11.876 13.425 12.0249 13.5114L16.5554 16.1249C17.0678 16.4196 17.7201 16.244 18.015 15.735L18.7209 14.5145C19.0158 14.0025 18.8401 13.3506 18.3307 13.0559V13.0589Z" fill="#7379FD"></path>
+                <path d="M30.1667 13.7278C31.0991 12.2544 33.0233 11.2333 35.01 11.2333C39.07 11.2333 42.2899 14.6 42.2899 18.8985C42.2899 23.1969 39.073 26.5636 35.01 26.5636C33.0233 26.5636 31.0991 25.5425 30.1667 24.0691V32.2819C30.1667 32.4039 30.0684 32.5022 29.9463 32.5022H26.8396C26.7174 32.5022 26.6191 32.4039 26.6191 32.2819V11.8138C26.6191 11.6918 26.7174 11.5935 26.8396 11.5935H29.9463C30.0684 11.5935 30.1667 11.6918 30.1667 11.8138V13.7278ZM34.3786 14.3589C31.9122 14.3589 30.0178 16.3146 30.0178 18.8985C30.0178 21.4852 31.9122 23.438 34.3786 23.438C36.8747 23.438 38.7691 21.4852 38.7691 18.8985C38.7691 16.3117 36.8747 14.3589 34.3786 14.3589Z" fill="black"></path>
+                <path d="M55.8924 21.0935C56.3809 21.409 57.6647 22.2336 58.1383 22.5372C58.2395 22.6027 58.2693 22.7337 58.2098 22.8379C56.78 25.2461 54.3643 26.5588 51.609 26.5588C47.4866 26.5588 44.0283 23.2219 44.0283 18.8937C44.0283 14.5655 47.4866 11.2286 51.5495 11.2286C55.8179 11.2286 58.8323 14.5298 58.7727 19.5456C58.7727 19.6676 58.6715 19.7659 58.5493 19.7659H47.3674C47.7278 22.0818 49.5031 23.5225 51.609 23.5225C53.569 23.5225 54.6741 22.6652 55.5826 21.1649C55.6481 21.0578 55.7881 21.0221 55.8924 21.0905V21.0935ZM47.5163 17.3309H55.246C55.0047 15.6788 53.712 14.2351 51.5465 14.2351C49.652 14.2351 48.0853 15.4377 47.5163 17.3309Z" fill="black"></path>
+                <path d="M70.0542 11.8043C70.087 11.6941 70.0304 11.581 69.9261 11.5364C69.6104 11.4054 69.241 11.319 68.6632 11.319C66.8283 11.319 65.3539 12.4294 64.633 13.8731V11.8102C64.633 11.6882 64.5347 11.5899 64.4126 11.5899H61.3059C61.1837 11.5899 61.0854 11.6882 61.0854 11.8102V25.9765C61.0854 26.0986 61.1837 26.1968 61.3059 26.1968H64.4126C64.5347 26.1968 64.633 26.0986 64.633 25.9765V18.743C64.633 16.3676 66.1075 14.8048 68.2432 14.8048C68.4934 14.8048 68.7317 14.8227 68.961 14.8584C69.0742 14.8763 69.1815 14.8108 69.2113 14.7036C69.381 14.1231 69.8874 12.3758 70.0542 11.8043Z" fill="black"></path>
+                <path d="M70.6011 22.4896L73.2611 21.5251C73.3773 21.4835 73.5024 21.546 73.5441 21.6591C74.0236 22.9272 74.9887 23.7934 76.3589 23.7934C77.4402 23.7934 78.435 23.1326 78.435 21.93C78.435 19.1943 71.2743 21.028 71.2743 15.7979C71.2743 13.2736 73.41 11.2286 76.4185 11.2286C78.8848 11.2286 80.7346 12.5711 81.4316 14.5C81.4733 14.6161 81.4048 14.7471 81.2856 14.7828L78.6078 15.6133C78.4946 15.649 78.3784 15.5865 78.3367 15.4734C77.9823 14.4941 77.2853 13.991 76.2993 13.991C75.367 13.991 74.5836 14.5923 74.5836 15.5538C74.5836 18.1674 81.8039 16.3664 81.8039 21.7156C81.8039 24.5406 79.2155 26.5558 76.2695 26.5558C73.6096 26.5558 71.2326 25.0794 70.4671 22.7605C70.4314 22.6474 70.4939 22.5253 70.6041 22.4866L70.6011 22.4896Z" fill="black"></path>
+                <path d="M91.0471 11.2286C95.2589 11.2286 98.8095 14.5655 98.8095 18.8937C98.8095 23.2219 95.2589 26.5588 91.0471 26.5588C86.8352 26.5588 83.3145 23.2219 83.3145 18.8937C83.3145 14.5655 86.8352 11.2286 91.0471 11.2286ZM91.0471 23.4362C93.5432 23.4362 95.4376 21.4835 95.4376 18.8967C95.4376 16.3099 93.5432 14.3571 91.0471 14.3571C88.5807 14.3571 86.6863 16.3129 86.6863 18.8967C86.6863 21.4835 88.5807 23.4362 91.0471 23.4362Z" fill="black"></path>
+                <path d="M107.531 14.3964C105.574 14.3964 104.281 15.8997 104.281 18.2126V25.9879C104.281 26.1099 104.183 26.2081 104.061 26.2081H100.954C100.832 26.2081 100.733 26.1099 100.733 25.9879V11.8215C100.733 11.6995 100.832 11.6013 100.954 11.6013H104.061C104.183 11.6013 104.281 11.6995 104.281 11.8215V13.554C105.243 12.2026 106.747 11.2381 108.794 11.2381C112.103 11.2381 114.027 13.5242 114.027 16.5278V25.9849C114.027 26.1069 113.929 26.2052 113.807 26.2052H110.7C110.578 26.2052 110.48 26.1069 110.48 25.9849V17.4893C110.48 15.596 109.398 14.3934 107.531 14.3934V14.3964Z" fill="black"></path>
+                <path d="M131.603 11.812V25.9783C131.603 26.1004 131.505 26.1986 131.382 26.1986H128.276C128.154 26.1986 128.055 26.1004 128.055 25.9783V24.0643C127.153 25.5378 125.229 26.5588 123.242 26.5588C119.182 26.5588 115.962 23.1921 115.962 18.8937C115.962 14.5953 119.182 11.2286 123.242 11.2286C125.229 11.2286 127.153 12.2526 128.055 13.7231V11.809C128.055 11.687 128.154 11.5888 128.276 11.5888H131.382C131.505 11.5888 131.603 11.687 131.603 11.809V11.812ZM123.84 23.4362C126.337 23.4362 128.231 21.4835 128.231 18.8967C128.231 16.3099 126.337 14.3571 123.84 14.3571C121.374 14.3571 119.48 16.3129 119.48 18.8967C119.48 21.4835 121.374 23.4362 123.84 23.4362Z" fill="black"></path>
+                </svg>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 gray-bg" data-aos="zoom-in"  data-aos-duration="1900">
+              <img src="../../assets/logo_steam.svg" class="col-9 h-100" alt="">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-5" data-aos="fade-right" data-aos-duration="1300">
+      <div class="container">
+        <div class="d-flex justify-content-center">
+          <h1 class="mb-2" id="EnglishDepartment">English Department curriclum</h1>
+        </div>
+        <div class="d-flex flex-row justify-content-center flex-wrap col-12 row g-2">
+          <div class="col-3">
+            <button id="kgButton" onclick="showSection('kgSection')">KG</button>
+            <button id="primaryButton" onclick="showSection('primarySection')">Primary</button>
+            <button id="prepButton" onclick="showSection('prepSection')">Prep</button>
+          </div>
+        </div>
+      </div>
+    
+      <div class="line"></div>
+    
+      <!-- KG Section -->
+      <div id="kgSection" data-aos="fade-right" data-aos-duration="1300" class="container section" style="display: none;">
+        <!-- KG Section with KG 1 and KG 2 -->
+        <div id="Grade-curriclum" class="d-flex flex-column justify-content-center col-12 p-3">
+          <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+            <h1>KG 1</h1>
+          </div>
+          <div class="d-flex flex-row justify-content-center row g-2 col-12 p-4">
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+                <h1>First semester</h1>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 semi-transparent-danger">
+                <h1>Second semester</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 d-flex flex-row flex-wrap row g-2">
+            <div class="col-12 col-lg-6 col-md-6 table-1">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>English</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Phonics</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Arabic</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>French</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Religion</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>P.E</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Music</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 table-2">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>English</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Phonics</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Arabic</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>French</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Religion</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>P.E</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Music</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div id="Grade-curriclum" class="d-flex flex-column justify-content-center col-12 p-3">
+          <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+            <h1>KG 2</h1>
+          </div>
+          <div class="d-flex flex-row justify-content-center row g-2 col-12 p-4">
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+                <h1>First semester</h1>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 semi-transparent-danger">
+                <h1>Second semester</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 d-flex flex-row flex-wrap row g-2">
+            <div class="col-12 col-lg-6 col-md-6 table-1">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>English</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Phonics</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Arabic</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>French</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Religion</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>P.E</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Music</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>Mental Math</td>
+                  </tr>
+                  </tbody>
+              </table>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 table-2">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>English</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Phonics</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Arabic</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>French</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Religion</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>P.E</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Music</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>Mental Math</td>
+                  </tr>
+                  </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Primary Section -->
+      <div id="primarySection" data-aos="fade-right" data-aos-duration="1300" class="container section" style="display: none;">
+        <div id="Grade-curriclum" class="d-flex flex-column justify-content-center col-12 p-3">
+          <!-- Primary 1-6 Titles -->
+          <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+            <h1>Primary 1</h1>
+          </div>
+          <!-- Same table structure as KG -->
+          <div class="d-flex flex-row justify-content-center row g-2 col-12 p-4">
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+                <h1>First semester</h1>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 semi-transparent-danger">
+                <h1>Second semester</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 d-flex flex-row flex-wrap row g-2">
+            <div class="col-12 col-lg-6 col-md-6 table-1">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Arabic</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>English</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>French</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Germen</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Combained Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Chemistrey</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>Physics</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Biology</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td>geopraphy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">13</th>
+                    <td>philosophy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">14</th>
+                    <td>Psycholohy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">15</th>
+                    <td>Religion</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">16</th>
+                    <td>Quran</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">17</th>
+                    <td>ICT</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">18</th>
+                    <td>HEC</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">19</th>
+                    <td>Music</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">20</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">21</th>
+                    <td>P.E</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">22</th>
+                    <td>Libaary</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">23</th>
+                    <td>Skills</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">24</th>
+                    <td>Social</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">25</th>
+                    <td>Values</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 table-2">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Arabic</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>English</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>French</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Germen</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Combained Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Chemistrey</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>Physics</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Biology</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td>geopraphy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">13</th>
+                    <td>philosophy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">14</th>
+                    <td>Psycholohy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">15</th>
+                    <td>Religion</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">16</th>
+                    <td>Quran</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">17</th>
+                    <td>ICT</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">18</th>
+                    <td>HEC</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">19</th>
+                    <td>Music</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">20</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">21</th>
+                    <td>P.E</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">22</th>
+                    <td>Libaary</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">23</th>
+                    <td>Skills</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">24</th>
+                    <td>Social</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">25</th>
+                    <td>Values</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div id="Grade-curriclum" class="d-flex flex-column justify-content-center col-12 p-3">
+          <!-- Primary 1-6 Titles -->
+          <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+            <h1>Primary 2</h1>
+          </div>
+          <!-- Same table structure as KG -->
+          <div class="d-flex flex-row justify-content-center row g-2 col-12 p-4">
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+                <h1>First semester</h1>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 semi-transparent-danger">
+                <h1>Second semester</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 d-flex flex-row flex-wrap row g-2">
+            <div class="col-12 col-lg-6 col-md-6 table-1">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Arabic</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>English</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>French</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Germen</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Combained Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Chemistrey</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>Physics</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Biology</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td>geopraphy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">13</th>
+                    <td>philosophy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">14</th>
+                    <td>Psycholohy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">15</th>
+                    <td>Religion</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">16</th>
+                    <td>Quran</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">17</th>
+                    <td>ICT</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">18</th>
+                    <td>HEC</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">19</th>
+                    <td>Music</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">20</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">21</th>
+                    <td>P.E</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">22</th>
+                    <td>Libaary</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">23</th>
+                    <td>Skills</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">24</th>
+                    <td>Social</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">25</th>
+                    <td>Values</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 table-2">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Arabic</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>English</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>French</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Germen</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Combained Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Chemistrey</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>Physics</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Biology</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td>geopraphy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">13</th>
+                    <td>philosophy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">14</th>
+                    <td>Psycholohy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">15</th>
+                    <td>Religion</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">16</th>
+                    <td>Quran</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">17</th>
+                    <td>ICT</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">18</th>
+                    <td>HEC</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">19</th>
+                    <td>Music</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">20</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">21</th>
+                    <td>P.E</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">22</th>
+                    <td>Libaary</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">23</th>
+                    <td>Skills</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">24</th>
+                    <td>Social</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">25</th>
+                    <td>Values</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div id="Grade-curriclum" class="d-flex flex-column justify-content-center col-12 p-3">
+          <!-- Primary 1-6 Titles -->
+          <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+            <h1>Primary 3</h1>
+          </div>
+          <!-- Same table structure as KG -->
+          <div class="d-flex flex-row justify-content-center row g-2 col-12 p-4">
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+                <h1>First semester</h1>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 semi-transparent-danger">
+                <h1>Second semester</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 d-flex flex-row flex-wrap row g-2">
+            <div class="col-12 col-lg-6 col-md-6 table-1">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Arabic</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>English</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>French</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Germen</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Combained Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Chemistrey</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>Physics</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Biology</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td>geopraphy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">13</th>
+                    <td>philosophy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">14</th>
+                    <td>Psycholohy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">15</th>
+                    <td>Religion</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">16</th>
+                    <td>Quran</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">17</th>
+                    <td>ICT</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">18</th>
+                    <td>HEC</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">19</th>
+                    <td>Music</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">20</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">21</th>
+                    <td>P.E</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">22</th>
+                    <td>Libaary</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">23</th>
+                    <td>Skills</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">24</th>
+                    <td>Social</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">25</th>
+                    <td>Values</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 table-2">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Arabic</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>English</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>French</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Germen</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Combained Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Chemistrey</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>Physics</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Biology</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td>geopraphy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">13</th>
+                    <td>philosophy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">14</th>
+                    <td>Psycholohy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">15</th>
+                    <td>Religion</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">16</th>
+                    <td>Quran</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">17</th>
+                    <td>ICT</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">18</th>
+                    <td>HEC</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">19</th>
+                    <td>Music</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">20</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">21</th>
+                    <td>P.E</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">22</th>
+                    <td>Libaary</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">23</th>
+                    <td>Skills</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">24</th>
+                    <td>Social</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">25</th>
+                    <td>Values</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div id="Grade-curriclum" class="d-flex flex-column justify-content-center col-12 p-3">
+          <!-- Primary 1-6 Titles -->
+          <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+            <h1>Primary 4</h1>
+          </div>
+          <!-- Same table structure as KG -->
+          <div class="d-flex flex-row justify-content-center row g-2 col-12 p-4">
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+                <h1>First semester</h1>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 semi-transparent-danger">
+                <h1>Second semester</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 d-flex flex-row flex-wrap row g-2">
+            <div class="col-12 col-lg-6 col-md-6 table-1">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Arabic</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>English</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>French</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Germen</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Combained Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Chemistrey</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>Physics</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Biology</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td>geopraphy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">13</th>
+                    <td>philosophy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">14</th>
+                    <td>Psycholohy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">15</th>
+                    <td>Religion</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">16</th>
+                    <td>Quran</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">17</th>
+                    <td>ICT</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">18</th>
+                    <td>HEC</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">19</th>
+                    <td>Music</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">20</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">21</th>
+                    <td>P.E</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">22</th>
+                    <td>Libaary</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">23</th>
+                    <td>Skills</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">24</th>
+                    <td>Social</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">25</th>
+                    <td>Values</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 table-2">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Physical Education</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div id="Grade-curriclum" class="d-flex flex-column justify-content-center col-12 p-3">
+          <!-- Primary 1-6 Titles -->
+          <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+            <h1>Primary 5</h1>
+          </div>
+          <!-- Same table structure as KG -->
+          <div class="d-flex flex-row justify-content-center row g-2 col-12 p-4">
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+                <h1>First semester</h1>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 semi-transparent-danger">
+                <h1>Second semester</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 d-flex flex-row flex-wrap row g-2">
+            <div class="col-12 col-lg-6 col-md-6 table-1">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Arabic</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>English</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>French</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Germen</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Combained Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Chemistrey</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>Physics</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Biology</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td>geopraphy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">13</th>
+                    <td>philosophy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">14</th>
+                    <td>Psycholohy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">15</th>
+                    <td>Religion</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">16</th>
+                    <td>Quran</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">17</th>
+                    <td>ICT</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">18</th>
+                    <td>HEC</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">19</th>
+                    <td>Music</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">20</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">21</th>
+                    <td>P.E</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">22</th>
+                    <td>Libaary</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">23</th>
+                    <td>Skills</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">24</th>
+                    <td>Social</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">25</th>
+                    <td>Values</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 table-2">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Physical Education</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div id="Grade-curriclum" class="d-flex flex-column justify-content-center col-12 p-3">
+          <!-- Primary 1-6 Titles -->
+          <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+            <h1>Primary 6</h1>
+          </div>
+          <!-- Same table structure as KG -->
+          <div class="d-flex flex-row justify-content-center row g-2 col-12 p-4">
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+                <h1>First semester</h1>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 semi-transparent-danger">
+                <h1>Second semester</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 d-flex flex-row flex-wrap row g-2">
+            <div class="col-12 col-lg-6 col-md-6 table-1">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Arabic</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>English</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>French</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Germen</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Combained Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Chemistrey</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>Physics</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Biology</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td>geopraphy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">13</th>
+                    <td>philosophy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">14</th>
+                    <td>Psycholohy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">15</th>
+                    <td>Religion</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">16</th>
+                    <td>Quran</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">17</th>
+                    <td>ICT</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">18</th>
+                    <td>HEC</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">19</th>
+                    <td>Music</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">20</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">21</th>
+                    <td>P.E</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">22</th>
+                    <td>Libaary</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">23</th>
+                    <td>Skills</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">24</th>
+                    <td>Social</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">25</th>
+                    <td>Values</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 table-2">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Arabic</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>English</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>French</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Germen</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Combained Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Chemistrey</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>Physics</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Biology</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td>geopraphy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">13</th>
+                    <td>philosophy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">14</th>
+                    <td>Psycholohy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">15</th>
+                    <td>Religion</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">16</th>
+                    <td>Quran</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">17</th>
+                    <td>ICT</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">18</th>
+                    <td>HEC</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">19</th>
+                    <td>Music</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">20</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">21</th>
+                    <td>P.E</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">22</th>
+                    <td>Libaary</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">23</th>
+                    <td>Skills</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">24</th>
+                    <td>Social</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">25</th>
+                    <td>Values</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+      <!-- Prep Section -->
+      <div id="prepSection" data-aos="fade-right" data-aos-duration="1300" class="container section" style="display: none;">
+        <div id="Grade-curriclum" class="d-flex flex-column justify-content-center col-12 p-3">
+          <!-- Prep 1-3 Titles -->
+          <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+            <h1>Prep 1</h1>
+          </div>
+          <!-- Same table structure as KG -->
+          <div class="d-flex flex-row justify-content-center row g-2 col-12 p-4">
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+                <h1>First semester</h1>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 semi-transparent-danger">
+                <h1>Second semester</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 d-flex flex-row flex-wrap row g-2">
+            <div class="col-12 col-lg-6 col-md-6 table-1">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Arabic</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>English</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>French</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Germen</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Combained Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Chemistrey</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>Physics</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Biology</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td>geopraphy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">13</th>
+                    <td>philosophy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">14</th>
+                    <td>Psycholohy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">15</th>
+                    <td>Religion</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">16</th>
+                    <td>Quran</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">17</th>
+                    <td>ICT</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">18</th>
+                    <td>HEC</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">19</th>
+                    <td>Music</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">20</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">21</th>
+                    <td>P.E</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">22</th>
+                    <td>Libaary</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">23</th>
+                    <td>Skills</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">24</th>
+                    <td>Social</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">25</th>
+                    <td>Values</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 table-2">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Arabic</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>English</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>French</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Germen</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Combained Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Chemistrey</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>Physics</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Biology</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td>geopraphy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">13</th>
+                    <td>philosophy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">14</th>
+                    <td>Psycholohy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">15</th>
+                    <td>Religion</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">16</th>
+                    <td>Quran</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">17</th>
+                    <td>ICT</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">18</th>
+                    <td>HEC</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">19</th>
+                    <td>Music</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">20</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">21</th>
+                    <td>P.E</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">22</th>
+                    <td>Libaary</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">23</th>
+                    <td>Skills</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">24</th>
+                    <td>Social</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">25</th>
+                    <td>Values</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div id="Grade-curriclum" class="d-flex flex-column justify-content-center col-12 p-3">
+          <!-- Prep 1-3 Titles -->
+          <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+            <h1>Prep 2</h1>
+          </div>
+          <!-- Same table structure as KG -->
+          <div class="d-flex flex-row justify-content-center row g-2 col-12 p-4">
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+                <h1>First semester</h1>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 semi-transparent-danger">
+                <h1>Second semester</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 d-flex flex-row flex-wrap row g-2">
+            <div class="col-12 col-lg-6 col-md-6 table-1">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Arabic</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>English</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>French</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Germen</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Combained Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Chemistrey</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>Physics</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Biology</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td>geopraphy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">13</th>
+                    <td>philosophy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">14</th>
+                    <td>Psycholohy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">15</th>
+                    <td>Religion</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">16</th>
+                    <td>Quran</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">17</th>
+                    <td>ICT</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">18</th>
+                    <td>HEC</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">19</th>
+                    <td>Music</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">20</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">21</th>
+                    <td>P.E</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">22</th>
+                    <td>Libaary</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">23</th>
+                    <td>Skills</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">24</th>
+                    <td>Social</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">25</th>
+                    <td>Values</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 table-2">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Arabic</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>English</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>French</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Germen</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Combained Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Chemistrey</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>Physics</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Biology</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td>geopraphy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">13</th>
+                    <td>philosophy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">14</th>
+                    <td>Psycholohy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">15</th>
+                    <td>Religion</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">16</th>
+                    <td>Quran</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">17</th>
+                    <td>ICT</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">18</th>
+                    <td>HEC</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">19</th>
+                    <td>Music</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">20</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">21</th>
+                    <td>P.E</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">22</th>
+                    <td>Libaary</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">23</th>
+                    <td>Skills</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">24</th>
+                    <td>Social</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">25</th>
+                    <td>Values</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div id="Grade-curriclum" class="d-flex flex-column justify-content-center col-12 p-3">
+          <!-- Prep 1-3 Titles -->
+          <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+            <h1>Prep 3</h1>
+          </div>
+          <!-- Same table structure as KG -->
+          <div class="d-flex flex-row justify-content-center row g-2 col-12 p-4">
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+                <h1>First semester</h1>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 semi-transparent-danger">
+                <h1>Second semester</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 d-flex flex-row flex-wrap row g-2">
+            <div class="col-12 col-lg-6 col-md-6 table-1">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Arabic</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>English</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>French</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Germen</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Combained Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Chemistrey</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>Physics</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Biology</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td>geopraphy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">13</th>
+                    <td>philosophy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">14</th>
+                    <td>Psycholohy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">15</th>
+                    <td>Religion</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">16</th>
+                    <td>Quran</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">17</th>
+                    <td>ICT</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">18</th>
+                    <td>HEC</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">19</th>
+                    <td>Music</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">20</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">21</th>
+                    <td>P.E</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">22</th>
+                    <td>Libaary</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">23</th>
+                    <td>Skills</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">24</th>
+                    <td>Social</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">25</th>
+                    <td>Values</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 table-2">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Arabic</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>English</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>French</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Germen</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Combained Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Chemistrey</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>Physics</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Biology</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td>geopraphy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">13</th>
+                    <td>philosophy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">14</th>
+                    <td>Psycholohy</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">15</th>
+                    <td>Religion</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">16</th>
+                    <td>Quran</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">17</th>
+                    <td>ICT</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">18</th>
+                    <td>HEC</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">19</th>
+                    <td>Music</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">20</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">21</th>
+                    <td>P.E</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">22</th>
+                    <td>Libaary</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">23</th>
+                    <td>Skills</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">24</th>
+                    <td>Social</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">25</th>
+                    <td>Values</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section class="mt-5" data-aos="fade-right" data-aos-duration="1300">
+      <div class="container">
+        <div class="d-flex justify-content-center">
+          <h1 class="mb-2" id="ArabicDepartment">Arabic Department curriclum</h1>
+        </div>
+        <div class="d-flex flex-row justify-content-center flex-wrap col-12 row g-2">
+          <div class="col-3">
+            <button id="kgButton" onclick="showSectionar('kgSectionar')">KG</button>
+            <button id="primaryButton" onclick="showSectionar('primarySectionar')">Primary</button>
+            <button id="prepButton" onclick="showSectionar('prepSectionar')">Prep</button>
+          </div>
+        </div>
+      </div>
+    
+      <div class="line"></div>
+    
+      <!-- KG Section -->
+      <div id="kgSectionar" class="container sectionar" style="display: none;">
+        <!-- KG Section with KG 1 and KG 2 -->
+        <div id="Grade-curriclum" class="d-flex flex-column justify-content-center col-12 p-3">
+          <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+            <h1>KG 1</h1>
+          </div>
+          <div class="d-flex flex-row justify-content-center row g-2 col-12 p-4">
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+                <h1>First semester</h1>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 semi-transparent-danger">
+                <h1>Second semester</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 d-flex flex-row flex-wrap row g-2">
+            <div class="col-12 col-lg-6 col-md-6 table-1">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>English</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 table-2">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Physical Education</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div id="Grade-curriclum" class="d-flex flex-column justify-content-center col-12 p-3">
+          <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+            <h1>KG 2</h1>
+          </div>
+          <div class="d-flex flex-row justify-content-center row g-2 col-12 p-4">
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+                <h1>First semester</h1>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 semi-transparent-danger">
+                <h1>Second semester</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 d-flex flex-row flex-wrap row g-2">
+            <div class="col-12 col-lg-6 col-md-6 table-1">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>English</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 table-2">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Physical Education</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Primary Section -->
+      <div id="primarySectionar" class="container sectionar" style="display: none;">
+        <div id="Grade-curriclum" class="d-flex flex-column justify-content-center col-12 p-3">
+          <!-- Primary 1-6 Titles -->
+          <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+            <h1>Primary 1</h1>
+          </div>
+          <!-- Same table structure as KG -->
+          <div class="d-flex flex-row justify-content-center row g-2 col-12 p-4">
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+                <h1>First semester</h1>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 semi-transparent-danger">
+                <h1>Second semester</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 d-flex flex-row flex-wrap row g-2">
+            <div class="col-12 col-lg-6 col-md-6 table-1">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Arabic</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>English</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>French</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>german</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 table-2">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>French</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>german</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div id="Grade-curriclum" class="d-flex flex-column justify-content-center col-12 p-3">
+          <!-- Primary 1-6 Titles -->
+          <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+            <h1>Primary 2</h1>
+          </div>
+          <!-- Same table structure as KG -->
+          <div class="d-flex flex-row justify-content-center row g-2 col-12 p-4">
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+                <h1>First semester</h1>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 semi-transparent-danger">
+                <h1>Second semester</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 d-flex flex-row flex-wrap row g-2">
+            <div class="col-12 col-lg-6 col-md-6 table-1">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>English</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 table-2">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Physical Education</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div id="Grade-curriclum" class="d-flex flex-column justify-content-center col-12 p-3">
+          <!-- Primary 1-6 Titles -->
+          <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+            <h1>Primary 3</h1>
+          </div>
+          <!-- Same table structure as KG -->
+          <div class="d-flex flex-row justify-content-center row g-2 col-12 p-4">
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+                <h1>First semester</h1>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 semi-transparent-danger">
+                <h1>Second semester</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 d-flex flex-row flex-wrap row g-2">
+            <div class="col-12 col-lg-6 col-md-6 table-1">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>English</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 table-2">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Physical Education</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div id="Grade-curriclum" class="d-flex flex-column justify-content-center col-12 p-3">
+          <!-- Primary 1-6 Titles -->
+          <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+            <h1>Primary 4</h1>
+          </div>
+          <!-- Same table structure as KG -->
+          <div class="d-flex flex-row justify-content-center row g-2 col-12 p-4">
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+                <h1>First semester</h1>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 semi-transparent-danger">
+                <h1>Second semester</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 d-flex flex-row flex-wrap row g-2">
+            <div class="col-12 col-lg-6 col-md-6 table-1">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>English</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 table-2">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Physical Education</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div id="Grade-curriclum" class="d-flex flex-column justify-content-center col-12 p-3">
+          <!-- Primary 1-6 Titles -->
+          <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+            <h1>Primary 5</h1>
+          </div>
+          <!-- Same table structure as KG -->
+          <div class="d-flex flex-row justify-content-center row g-2 col-12 p-4">
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+                <h1>First semester</h1>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 semi-transparent-danger">
+                <h1>Second semester</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 d-flex flex-row flex-wrap row g-2">
+            <div class="col-12 col-lg-6 col-md-6 table-1">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>English</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 table-2">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Physical Education</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div id="Grade-curriclum" class="d-flex flex-column justify-content-center col-12 p-3">
+          <!-- Primary 1-6 Titles -->
+          <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+            <h1>Primary 6</h1>
+          </div>
+          <!-- Same table structure as KG -->
+          <div class="d-flex flex-row justify-content-center row g-2 col-12 p-4">
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+                <h1>First semester</h1>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 semi-transparent-danger">
+                <h1>Second semester</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 d-flex flex-row flex-wrap row g-2">
+            <div class="col-12 col-lg-6 col-md-6 table-1">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>English</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 table-2">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Physical Education</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+      <!-- Prep Section -->
+      <div id="prepSectionar" class="container sectionar" style="display: none;">
+        <div id="Grade-curriclum" class="d-flex flex-column justify-content-center col-12 p-3">
+          <!-- Prep 1-3 Titles -->
+          <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+            <h1>Prep 1</h1>
+          </div>
+          <!-- Same table structure as KG -->
+          <div class="d-flex flex-row justify-content-center row g-2 col-12 p-4">
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+                <h1>First semester</h1>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 semi-transparent-danger">
+                <h1>Second semester</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 d-flex flex-row flex-wrap row g-2">
+            <div class="col-12 col-lg-6 col-md-6 table-1">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>English</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 table-2">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Physical Education</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div id="Grade-curriclum" class="d-flex flex-column justify-content-center col-12 p-3">
+          <!-- Prep 1-3 Titles -->
+          <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+            <h1>Prep 2</h1>
+          </div>
+          <!-- Same table structure as KG -->
+          <div class="d-flex flex-row justify-content-center row g-2 col-12 p-4">
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+                <h1>First semester</h1>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 semi-transparent-danger">
+                <h1>Second semester</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 d-flex flex-row flex-wrap row g-2">
+            <div class="col-12 col-lg-6 col-md-6 table-1">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>English</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 table-2">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Physical Education</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div id="Grade-curriclum" class="d-flex flex-column justify-content-center col-12 p-3">
+          <!-- Prep 1-3 Titles -->
+          <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+            <h1>Prep 3</h1>
+          </div>
+          <!-- Same table structure as KG -->
+          <div class="d-flex flex-row justify-content-center row g-2 col-12 p-4">
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 custom-opacity">
+                <h1>First semester</h1>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+              <div class="col-12 d-flex text-center justify-content-center p-3 semi-transparent-danger">
+                <h1>Second semester</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 d-flex flex-row flex-wrap row g-2">
+            <div class="col-12 col-lg-6 col-md-6 table-1">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Math</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Science</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>English</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 table-2">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>History</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Art</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Physical Education</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section data-aos="fade-up" class="mt-5 col-12">
+        <footer class="footer col-12">
+          <div class="footer-container">
+            <div class="footer-section about">
+              <h2>About the School</h2>
+              <p>
+                School logo and welcome message. Learn about the latest school
+                news and upcoming events.
+              </p>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Curriculum</a></li>
+                <li><a href="#">Admissions</a></li>
+                <li><a href="#">Events & News</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="footer-section contact">
+              <h2>Contact Us</h2>
+              <p>Phone: 123-456-7890</p>
+              <p>Email: school@example.com</p>
+              <p>Address: 1234 School Street, City</p>
+              <p>Follow us on social media:</p>
+              <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+              </div>
+            </div>
+            <div class="footer-section resources">
+              <h2>Educational Resources</h2>
+              <ul>
+                <li><a href="#">Textbook Links</a></li>
+                <li><a href="#">Worksheets and Assignments</a></li>
+                <li><a href="#">Educational Platforms</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            &copy; 2024 School. All rights reserved.
+          </div>
+        </footer>
+      </section>
+  
+    
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="./app.js"></script>
+</body>
+</html>

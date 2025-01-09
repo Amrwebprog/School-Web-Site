@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section id="MySideBar">
+      <!--      <div class="side-menue d-flex flex-column  p-5 align-items-center col-5 h-100 position-fixed bg-white gap-4 ">
+               <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="#">Home</a>
+               <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/about_us/index.html">About us</a>
+               <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/curriclum/index.html">Curriculum</a>
+               <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/admissions/index.html">Admissions</a>
+               <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/News & Events/index.html">News & Events</a>
+               <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/Staff Directory/index.html">Staff Directory</a>
+               <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/contact us/index.html">Contact us</a>
+               <a class="animate__animated animate__fadeIn text-dark text-start bg-gradient bg-info p-2" href="./pages/FAQ/index.html">FAQ</a>
+           </div>
+           <div class="overlayFullss d-flex position-fixed col-12 h-100"></div> -->
+       </section>
+
+    <section class="d-flex flex-wrap">
+      <div class="container d-fixed ">
+          <header class="d-flex flex-row gap-3 justify-content-between gap-3 p-4">
+              <div class="header-logo animate__animated animate__fadeInLeft text-center align-items-center d-flex flex-row gap-2">
+                  <div id="logo-container">
+
+                      <img src="../../assets/Logo.png" class="col-12 h-100" alt="">
+
+                  </div>
+                  <h1>Al Mostakbal Modern Language School</h1>
+              </div>
+              <div class="justify-content-center align-items-center d-none " id="Menue">
+                  <i class="fa-solid fa-bars" onclick='ToggleNavbar()'></i>
+              </div>
+              <div id="res" class="d-flex flex-row gap-5 align-items-center">
+                  <div class="d-flex flex-row justify-content-center align-items-center gap-2">
+                    <a href="#" class="btn btn-primary">Login</a>
+          </div>
+              <div class="social d-flex flex-row gap-4 fs-4">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-youtube"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                  <i class="fa-brands fa-instagram"></i>
+              </div>
+          </div>
+
+          </header>
+          <nav id="Nav" class="d-flex justify-content-center p-3 align-items-center text-center gap-3">
+              <a class="text-white animate__animated animate__fadeIn" href="./../../index.html">Home</a>
+              <a class="text-white animate__animated animate__fadeIn" href="#">About us</a>
+              <a class="text-white animate__animated animate__fadeIn" href="./../curriclum/index.html">Curriculum</a>
+              <a class="text-white animate__animated animate__fadeIn" href="./../admissions/index.html">Admissions</a>
+              <a class="text-white animate__animated animate__fadeIn" href="./../News & Events/index.html">News & Events</a>
+              <a class="text-white animate__animated animate__fadeIn" href="./../Staff Directory/index.html">Staff Directory</a>
+              <a class="text-white animate__animated animate__fadeIn" href="./../contact us/">Contact us</a>
+              <a class="text-white animate__animated animate__fadeIn" href="./../FAQ/index.html">FAQ</a>
+          </nav>
+      </div>
+  </section> 
+
+    <section class="mt-2 d-flex flex-column">
+      <div class="container d-flex flex-row gap-2">
+        <div class="video-container col-12 position-relative">
+          <video
+            autoplay
+            muted
+            src="../../assets/Branch 5.mp4"
+            class="col-12 h-100"
+          ></video>
+          <div
+            class="cards-container d-flex flex-wrap justify-content-center align-items-center position-absolute col-12"
+          >
+            <div class="p-2 col-12 col-lg-5 col-md-5 Opacity-content">
+              <div
+                class="card p-4 text-center animate__animated animate__fadeInDown animate__animated animate__fadeInDown animate__delay-1s"
+              >
+                <i
+                  class="fa-solid fa-comment fs-1 animate__animated animate__fadeIn animate__delay-2s"
+                ></i>
+                <h3 href="#SchoolMangerWord" class="animate__animated animate__fadeIn animate__delay-2s">
+                  Message from the Principal
+                </h3>
+                <p class="animate__animated animate__fadeIn animate__delay-2s">
+                  Welcome to our school!
+                </p>
+              </div>
+            </div>
+            <div class="p-2 col-12 col-lg-5 col-md-5 Opacity-content">
+              <div
+                class="card p-4 text-center animate__animated animate__fadeInDown animate__animated animate__fadeInDown animate__delay-1s"
+              >
+                <i
+                  class="fa-solid fa-list-check fs-1 animate__animated animate__fadeIn animate__delay-2s"
+                ></i>
+                <h3 class="animate__animated animate__fadeIn animate__delay-2s">
+                  Programs
+                </h3>
+                <p class="animate__animated animate__fadeIn animate__delay-2s">
+                  Explore our academic programs
+                </p>
+              </div>
+            </div>
+            <div class="p-2 col-12 col-lg-5 col-md-5 Opacity-content">
+              <div
+                class="card p-4 text-center animate__animated animate__fadeInDown animate__animated animate__fadeInDown animate__delay-1s"
+              >
+                <i
+                  class="fa-solid fa-ticket-simple fs-1 animate__animated animate__fadeIn animate__delay-2s"
+                ></i>
+                <h3 class="animate__animated animate__fadeIn animate__delay-2s">
+                  Admissions
+                </h3>
+                <p class="animate__animated animate__fadeIn animate__delay-2s">
+                  Join our community
+                </p>
+              </div>
+            </div>
+            <div class="p-2 col-12 col-lg-5 col-md-5 Opacity-content">
+              <div
+                class="card p-4 text-center animate__animated animate__fadeInDown animate__animated animate__fadeInDown animate__delay-1s"
+              >
+                <i
+                  class="fa-regular fa-message fs-1 animate__animated animate__fadeIn animate__delay-2s"
+                ></i>
+                <h3 class="animate__animated animate__fadeIn animate__delay-2s">
+                  Contact Us
+                </h3>
+                <p class="animate__animated animate__fadeIn animate__delay-2s">
+                  Get in touch
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            id="video-content"
+            class="content-overlay animate__animated animate__fadeInLeft position-absolute"
+          >
+            <a href="" class=""><b>Welcome to Our School</b></a>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-5">
+      <div class="container">
+        <div
+          class="d-flex flex-row col-12 gap-3 flex-wrap justify-content-center align-items-center"
+        >
+          <div
+            data-aos="flip-left"
+            class="d-flex flex-column flex-wrap gap-3 justify-content-start p-4 content-left align-items-start col-12 col-lg-5 col-md-5 text-start text-white"
+          >
+            <i class="fa-solid fa-bullseye"></i>
+            <h2>our vision</h2>
+            <h5>
+              "Our vision is to create a dynamic and inclusive educational environment where every student is inspired to achieve their fullest potential. We aim to foster creativity, critical thinking, and lifelong learning while instilling values of respect, responsibility, and global citizenship. Through innovative teaching methods and a supportive community, we strive to prepare our students to excel in an ever-changing world and become leaders who contribute positively to society.
+            </h5>
+          </div>
+          <div
+            data-aos="flip-right"
+            class="d-flex flex-column flex-wrap gap-3 justify-content-start p-4 content-right align-items-start col-12 col-lg-5 col-md-5 text-start text-white"
+          >
+            <i class="fa-solid fa-bullseye"></i>
+            <h2>our Goals</h2>
+            <h5>
+              Our goal is to provide a high-quality education that empowers students to excel academically and personally while fostering a safe and inclusive environment. We strive to encourage creativity, collaboration, and critical thinking, equipping students with the skills and knowledge needed for higher education and future careers. Additionally, we aim to instill core values such as respect, responsibility, and empathy to nurture well-rounded individuals. By promoting a culture of lifelong learning and adaptability, we prepare students to meet the challenges of a rapidly evolving world. We also prioritize building strong partnerships with parents 
+            </h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-5">
+      <div class="container">
+        <div
+          class="d-flex flex-row gap-2 col-12 flex-wrap justify-content-center"
+        >
+          <div
+            data-aos="zoom-in-up"
+            class="d-flex aboutus-content aboutscholbg p-3 flex-column section-tow-left col-12 col-lg-5 col-md-5 justify-content-center align-items-center"
+          >
+            <h1 class="d-flex flex-column ">
+              <span class="Blue-color">ElMostakbal Modern Language School</span
+              >Is The way of your childrens Success
+            </h1>
+            <p>
+              Education is the passport for the future for tomorow belongs to those who prepare for it today  
+            </p>
+          </div>
+          <div
+            data-aos="zoom-in-up"
+            class="d-flex flex-column section-tow-right col-12 col-lg-5 col-md-5 justify-content-center align-items-center"
+          >
+            <img src="../../assets/img1.jpg" class="col-12 img1" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-5 section-bg">
+      <div class="container">
+        <div
+          class="col-12 d-flex flex-row justify-content-center flex-wrap align-items-center p-4"
+        >
+          <div class="d-flex flex-column flex-wrap col-12 col-md-5 col-lg-5">
+           <div class="img-container col-10"></div>
+          </div>
+          <div class="d-flex flex-column flex-wrap col-12 col-md-5 col-lg-5">
+            <h1 id="SchoolMangerWord" class="blue">School Manger Word</h1>
+            <h5 class="paracolor">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+              officia minus consequatur iste necessitatibus, minima impedit eos.
+              Nam earum omnis, quos sit nobis numquam debitis voluptas provident
+              quia, accusamus tempore?
+            </h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="mt-5">
+      <div class="container" id="countSection">
+          <div class="col-12 d-flex flex-row flex-wrap justify-content-center align-items-center p-2">
+              <div class="bg-warning d-flex p-4 col-12 col-lg-3 col-md-3 flex-column gap-2 justify-content-between align-items-center text-center">
+                  <h1 id="subjectsCount">0</h1>
+                  <h4>Subjects</h4>
+              </div>
+              <div class="bg-danger d-flex p-4 col-12 col-lg-5 col-md-5 flex-column gap-2 justify-content-between align-items-center text-center">
+                  <h1 id="studentsCount">0</h1>
+                  <h4>students</h4>
+              </div>
+              <div class="bg-primary bg-gradient d-flex p-4 col-12 col-lg-3 col-md-3 flex-column gap-2 justify-content-between align-items-center text-center">
+                  <h1 id="experienceCount">0</h1>
+                  <h4>Years Of Experience</h4>
+              </div>
+          </div>
+      </div>
+  </section>
+
+    <section class="mt-5">
+      <div class="container">
+        <div class="d-flex flex-column gap-3 col-12">
+          <div
+            class="cont-header col-12 col-md-6 col-lg-6 gap-2 d-flex flex-column"
+          >
+            <h1>Opinions of our distinguished <span>customers</span></h1>
+            <p>add small text here</p>
+          </div>
+          <div class="d-flex flex-row flex-wrap col-12">
+            <div class="col-12 col-lg-4 col-md-4 p-2">
+              <div class="box-six col-12 card border gap-3">
+                <p>
+                  this text is an example of text you can replace it in the same
+                  space
+                </p>
+                <p><b>Yasmin mohamed </b></p>
+                <p>mother of tow kids</p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-4 p-2">
+              <div class="box-six col-12 card border gap-3">
+                <p>
+                  this text is an example of text you can replace it in the same
+                  space
+                </p>
+                <p><b>Yasmin mohamed </b></p>
+                <p>mother of tow kids</p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-4 p-2">
+              <div class="box-six col-12 card border gap-3">
+                <p>
+                  this text is an example of text you can replace it in the same
+                  space
+                </p>
+                <p><b>Yasmin mohamed </b></p>
+                <p>mother of tow kids</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-5">
+      <div class="container">
+        <div class="col-12 d-flex flex-row flex-wrap">
+          <div class="col-12">
+            <h1>Our Services</h1>
+          </div>
+          <div class="col-12">
+            <div class="card d-flex flex-row justify-content-center">
+              <h1>Department of Languages</h1>
+            </div>
+        
+            <div class="col-12 d-flex flex-row justify-content-center flex-wrap row g-1">
+                <div class="col-12 col-lg-4 col-md-4">
+            <div class="book mt-4">
+              <p>Safe and reliable school buses for convenient student transport. </p>
+              <div class="cover">
+                <p>Transport Service</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-4">
+            <div class="book mt-4">
+              <p>On-site medical care and wellness programs to ensure students well-being. </p>
+              <div class="cover">
+                <p>Health and Wellness</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-4">
+            <div class="book mt-4">
+              <p>Clubs and events to support students' hobbies and personal development.     </p>
+              <div class="cover">
+                <p> Activities</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-4">
+            <div class="book mt-4">
+              <p>Offering various activities like sports, arts, and tutoring to enhance students skills. </p>
+              <div class="cover">
+                <p>After-School Programs</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-4">
+            <div class="book mt-4">
+              <p>Specialized courses to improve proficiency in English, French, and other languages. </p>
+              <div class="cover">
+                <p>Enhancement Courses</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-4">
+            <div class="book mt-4">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+              <div class="cover">
+                <p>Mental Math</p>
+              </div>
+            </div>
+        </div>
+
+        </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-5">
+        <div class="container">
+          <div class="col-12 d-flex flex-row flex-wrap">
+            
+            <div class="col-12">
+              <div class="card d-flex flex-row justify-content-center">
+                <h1>Department of Arabic</h1>
+              </div>
+          
+              <div class="col-12 d-flex flex-row justify-content-center flex-wrap row g-1">
+                  <div class="col-12 col-lg-4 col-md-4">
+              <div class="book mt-4">
+                <p>Safe and reliable school buses for convenient student transport. </p>
+                <div class="cover">
+                  <p>Transport Service</p>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-4">
+              <div class="book mt-4">
+                <p>On-site medical care and wellness programs to ensure students well-being. </p>
+                <div class="cover">
+                  <p>Health and Wellness</p>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-4">
+              <div class="book mt-4">
+                <p>Clubs and events to support students' hobbies and personal development.     </p>
+                <div class="cover">
+                  <p> Activities</p>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-4">
+              <div class="book mt-4">
+                <p>Offering various activities like sports, arts, and tutoring to enhance students skills. </p>
+                <div class="cover">
+                  <p>After-School Programs</p>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-4">
+              <div class="book mt-4">
+                <p>Specialized courses to improve proficiency in English, French, and other languages. </p>
+                <div class="cover">
+                  <p>Enhancement Courses</p>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-4">
+              <div class="book mt-4">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                <div class="cover">
+                  <p>Mental Math</p>
+                </div>
+              </div>
+          </div>
+  
+          </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-5">
+        <div class="container d-flex flex-column ">
+          <div class="line postion-relative">
+            <div class="content-header-bg  postion-absolute text-center justify-content-center  text-white  align-items-center">
+              <h4>About us</h4>
+            </div>
+            
+          </div>
+          <div class="col-12 d-flex flex-row justify-content-center">
+            <div class="col-12 col-lg-6 col-md-6 p-4 d-flex flex-column flex-wrap mb-5 text-white mt-4 styled-div">
+              <ul>
+                <li>We have more than 20 Years of extensive Experience in education.</li>
+                <li>Functioning in 8 branches so far and more to be opened soon.</li>
+                <li>Our education institution, which always embraces top students, is highly appreciated among others.</li>
+                <li>After decades working in the world of education, we became unique and leaders of that field.</li>
+              </ul>
+            </div>
+            
+          </div>
+          
+        </div>
+      </section>
+
+    <section data-aos="fade-up" class="mt-5">
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-section about">
+            <h2>About the School</h2>
+            <p>
+              School logo and welcome message. Learn about the latest school
+              news and upcoming events.
+            </p>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Curriculum</a></li>
+              <li><a href="#">Admissions</a></li>
+              <li><a href="#">Events & News</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-section contact">
+            <h2>Contact Us</h2>
+            <p>Phone: 123-456-7890</p>
+            <p>Email: school@example.com</p>
+            <p>Address: 1234 School Street, City</p>
+            <p>Follow us on social media:</p>
+            <div class="social-links">
+              <a href="#">Facebook</a>
+              <a href="#">Twitter</a>
+              <a href="#">Instagram</a>
+            </div>
+          </div>
+          <div class="footer-section resources">
+            <h2>Educational Resources</h2>
+            <ul>
+              <li><a href="#">Textbook Links</a></li>
+              <li><a href="#">Worksheets and Assignments</a></li>
+              <li><a href="#">Educational Platforms</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          &copy; 2024 School. All rights reserved.
+        </div>
+      </footer>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
